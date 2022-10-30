@@ -1,8 +1,48 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/ofont.ru_Open Sans.ttf');
+}
 body{
     background: #E5E5E5;
+    margin: 0px auto;
     width: 1920px;
+    font-family: 'Open Sans';
+}
+
+.wrap{
+    margin: 0px auto;
+    width: 1120px;
+    background-color: #989595;
 }
 
 header{
     height: 150px;
+    color: #1D1D1B;
+}
+
+.upper-line{
+    height: 36px;
+    background-color: #F8F8F8;
+    font-size: 12px;
+}
+
+.geometrics{
+    float: left;
+}
+
+.clients-navigation{
+    float: left;
+}
+
+.header-info{
+    color: header-info;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav a{
+    color: #1D1D1B;
+    text-decoration: none;
 }
