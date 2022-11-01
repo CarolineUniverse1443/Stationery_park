@@ -3,16 +3,13 @@
     src: url('fonts/ofont.ru_Open Sans.ttf');
 }
 body{
-    background: #E5E5E5;
+    background: #F8F8F8;
     margin: 0px auto;
-    width: 1920px;
     font-family: 'Open Sans';
 }
 
 .wrap{
     margin: 0px auto;
-    width: 1120px;
-    background-color: #989595;
 }
 
 header{
@@ -20,22 +17,64 @@ header{
     color: #1D1D1B;
 }
 
-.upper-line{
-    height: 36px;
-    background-color: #F8F8F8;
-    font-size: 12px;
+.container{
+    width: auto;
+    background-color:  #E5E5E5;
 }
 
-.geometrics{
-    float: left;
+.upper-line{
+    margin: 0px auto;
+    height: 36px;
+    font-size: 12px;
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.geo{
+    width: 12px;
+    height: 16px;
+    margin-right: 13px;
+}
+
+.city{
+    margin-right: 99px;
 }
 
 .clients-navigation{
-    float: left;
+    display: flex;
+}
+
+.shops{
+    margin-right: 24px;
+}
+
+.buyers{
+    margin-right: 11px;
+}
+
+.legals{
+    margin-right: 11px;
+    margin-left: 27px;
 }
 
 .header-info{
     color: header-info;
+    position: absolute;
+    right: 10px;
+}
+
+.actions{
+    margin: 0px auto;
+    width: 1120px;
+    background-color: #cf7c7c;
+}
+
+nav{
+    margin: 0px auto;
+    width: 1120px;
+    background-color: rgb(15, 157, 157);
 }
 
 nav ul li{
