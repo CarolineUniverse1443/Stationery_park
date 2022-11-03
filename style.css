@@ -3,7 +3,7 @@
     src: url('fonts/ofont.ru_Open Sans.ttf');
 }
 body{
-    background: #F8F8F8;
+    background: #FFF;
     margin: 0px auto;
     font-family: 'Open Sans';
 }
@@ -19,7 +19,7 @@ header{
 
 .container{
     width: auto;
-    background-color:  #E5E5E5;
+    background-color:  #f8f8f8;
 }
 
 .upper-line{
@@ -162,15 +162,79 @@ header{
 
 nav{
     margin: 0px auto;
+    margin-top: 28px;
     width: 1120px;
-    background-color: rgb(15, 157, 157);
+    background-color: rgba(15, 157, 157, 0.3);
+    font-size: 14px;
+}
+
+nav ul{
+    width: 1120px;
+    margin: 0px;
+    margin-left: -40px;
+    height: 48px;
+    /* background-color:rgb(129, 131, 136, 0.4); */
 }
 
 nav ul li{
     list-style: none;
+    width: 140px;
+    height: 48px;
+    background-color: #fafafa;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+.catalog{
+    margin: 0px;
+    width: 136px;
+    font-size: 16px;
+    background-color: #E0001B;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.papers{
+    width: 200px;
+}
+
+.school{
+    width: 192px;
+    background-color: #f6f6f6;
+}
+
+.creative, .trade{
+    width: 207px;
+}
+
+.trade .line {
+    margin-left: 8px;
+}
+
+.discounts{
+    width: 178px;
+}
+
+.nav-icon{
+    margin-right: 8px;
+    margin-left: 24px;
+}
+
+.catalog .nav-icon{
+    margin-left: 16px;
 }
 
 nav a{
     color: #1D1D1B;
     text-decoration: none;
+}
+
+#cat{
+    color: white;
+}
+
+#discount{
+    color:#E0001B;
+    font-weight: bold;
 }
