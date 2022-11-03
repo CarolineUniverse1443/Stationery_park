@@ -132,13 +132,32 @@ header{
 }
 
 .actions .favorite{
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
     width: 180px;
     text-align: center;
 }
 
-.favorite img{
+.heart{
     margin-right: 15px;
+}
+
+.scales{
+    margin-right: 13px;
+}
+
+.cart{
+    margin-right: 14px;
+}
+
+.counter{
+    width: 17px;
+    height: 17px;
+    background-color:#E0001B;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 20px;
 }
 
 nav{
