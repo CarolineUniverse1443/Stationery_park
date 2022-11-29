@@ -1,240 +1,240 @@
 @font-face {
-    font-family: 'Open Sans';
-    src: url('fonts/ofont.ru_Open Sans.ttf');
+	font-family: 'Open Sans';
+	src: url('fonts/ofont.ru_Open Sans.ttf');
 }
 body{
-    background: #FFF;
-    margin: 0px auto;
-    font-family: 'Open Sans';
+	background: #FFF;
+	margin: 0px auto;
+	font-family: 'Open Sans';
 }
 
 .wrap{
-    margin: 0px auto;
+	margin: 0px auto;
 }
 
 header{
-    height: 150px;
-    color: #1D1D1B;
+	height: 150px;
+	color: #1D1D1B;
 }
 
 .container{
-    width: auto;
-    background-color:  #f8f8f8;
+	width: auto;
+	background-color:  #f8f8f8;
 }
 
 .upper-line{
-    margin: 0px auto;
-    height: 36px;
-    font-size: 12px;
-    width: 1120px;
-    display: flex;
-    align-items: center;
-    position: relative;
+	margin: 0px auto;
+	height: 36px;
+	font-size: 12px;
+	width: 1120px;
+	display: flex;
+	align-items: center;
+	position: relative;
 }
 
 .geo{
-    width: 12px;
-    height: 16px;
-    margin-right: 13px;
+	width: 12px;
+	height: 16px;
+	margin-right: 13px;
 }
 
 .city{
-    margin-right: 99px;
+	margin-right: 99px;
 }
 
 .clients-navigation{
-    display: flex;
+	display: flex;
 }
 
 .shops{
-    margin-right: 24px;
+	margin-right: 24px;
 }
 
 .buyers{
-    margin-right: 11px;
+	margin-right: 11px;
 }
 
 .legals{
-    margin-right: 11px;
-    margin-left: 27px;
+	margin-right: 11px;
+	margin-left: 27px;
 }
 
 .header-info{
-    color: header-info;
-    position: absolute;
-    right: 10px;
+	color: header-info;
+	position: absolute;
+	right: 10px;
 }
 
 .actions{
-    margin: 0px auto;
-    margin-top: 34px;
-    width: 1120px;
-    /* background-color: rgb(226, 212, 155, 0.2); */
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
+	margin: 0px auto;
+	margin-top: 34px;
+	width: 1120px;
+	/* background-color: rgb(226, 212, 155, 0.2); */
+	white-space: nowrap;
+	display: flex;
+	align-items: center;
 }
 
 .logo{
-    margin-right: 56px;
+	margin-right: 56px;
 }
 
 .search-form{
-    width: 412px;
-    border: 1px solid #D5D5D5;
-    border-radius: 3px;
-    min-height: 20px;
-    margin-right: 30px;
-    display: flex;
-    align-items: center;
+	width: 412px;
+	border: 1px solid #D5D5D5;
+	border-radius: 3px;
+	min-height: 20px;
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
 }
 
 .search{
-    margin: 0px;
-    border: none;
-    font-size: 14px;
-    letter-spacing: 0.05em;
-    text-indent: 16px;
-    outline: none;
-    font-family: 'Open Sans';
-    width: 350px;
-    height: 48px;
+	margin: 0px;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	text-indent: 16px;
+	outline: none;
+	font-family: 'Open Sans';
+	width: 350px;
+	height: 48px;
 }
 
 .find{
-    width: 56px;
-    height: 49px;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
-    border: none;
-    cursor: pointer;
-    background: url('img/header/search.svg') no-repeat 50% 50% #E0001B;
+	width: 56px;
+	height: 49px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	border: none;
+	cursor: pointer;
+	background: url('img/header/search.svg') no-repeat 50% 50% #E0001B;
 }
 
 .actions button{
-    height: 48px;
-    font-weight: 600;
-    font-size: 14px;
-    text-align: center;
-    font-family: 'Open Sans';
-    border: none;
-    border-radius: 3px;
-    background-color: rgba(224, 223, 223, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 160px;
-    cursor: pointer;
+	height: 48px;
+	font-weight: 600;
+	font-size: 14px;
+	text-align: center;
+	font-family: 'Open Sans';
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(224, 223, 223, 0);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 160px;
+	cursor: pointer;
 }
 
 .actions button:hover{
-    background-color: #E5E5E5;
+	background-color: #E5E5E5;
 }
 
 .actions .favorite{
-    /* background-color: #E5E5E5; */
-    width: 180px;
-    text-align: center;
+	/* background-color: #E5E5E5; */
+	width: 180px;
+	text-align: center;
 }
 
 .heart{
-    margin-right: 15px;
+	margin-right: 15px;
 }
 
 .scales{
-    margin-right: 13px;
+	margin-right: 13px;
 }
 
 .cart{
-    margin-right: 14px;
+	margin-right: 14px;
 }
 
 .counter{
-    width: 17px;
-    height: 17px;
-    background-color:#E0001B;
-    border-radius: 50%;
-    color: white;
-    font-size: 12px;
-    font-weight: 300;
-    margin-left: 20px;
+	width: 17px;
+	height: 17px;
+	background-color:#E0001B;
+	border-radius: 50%;
+	color: white;
+	font-size: 12px;
+	font-weight: 300;
+	margin-left: 20px;
 }
 
 nav{
-    margin: 0px auto;
-    margin-top: 28px;
-    width: 1120px;
-    background-color: rgba(15, 157, 157, 0.3);
-    font-size: 14px;
+	margin: 0px auto;
+	margin-top: 28px;
+	width: 1120px;
+	background-color: rgba(15, 157, 157, 0.3);
+	font-size: 14px;
 }
 
 nav ul{
-    width: 1120px;
-    margin: 0px;
-    margin-left: -40px;
-    height: 48px;
-    /* background-color:rgb(129, 131, 136, 0.4); */
+	width: 1120px;
+	margin: 0px;
+	margin-left: -40px;
+	height: 48px;
+	/* background-color:rgb(129, 131, 136, 0.4); */
 }
 
 nav ul li{
-    list-style: none;
-    width: 140px;
-    height: 48px;
-    background-color: #fafafa;
-    display: flex;
-    float: left;
-    align-items: center;
+	list-style: none;
+	width: 140px;
+	height: 48px;
+	background-color: #fafafa;
+	display: flex;
+	float: left;
+	align-items: center;
 }
 
 .catalog{
-    margin: 0px;
-    width: 136px;
-    font-size: 16px;
-    background-color: #E0001B;
-    border-bottom-left-radius: 3px;
-    border-top-left-radius: 3px;
+	margin: 0px;
+	width: 136px;
+	font-size: 16px;
+	background-color: #E0001B;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
 }
 
 .papers{
-    width: 200px;
+	width: 200px;
 }
 
 .school{
-    width: 192px;
-    background-color: #f6f6f6;
+	width: 192px;
+	background-color: #f6f6f6;
 }
 
 .creative, .trade{
-    width: 207px;
+	width: 207px;
 }
 
 .trade .line {
-    margin-left: 8px;
+	margin-left: 8px;
 }
 
 .discounts{
-    width: 178px;
+	width: 178px;
 }
 
 .nav-icon{
-    margin-right: 8px;
-    margin-left: 24px;
+	margin-right: 8px;
+	margin-left: 24px;
 }
 
 .catalog .nav-icon{
-    margin-left: 16px;
+	margin-left: 16px;
 }
 
 nav a{
-    color: #1D1D1B;
-    text-decoration: none;
+	color: #1D1D1B;
+	text-decoration: none;
 }
 
 #cat{
-    color: white;
+	color: white;
 }
 
 #discount{
-    color:#E0001B;
-    font-weight: bold;
+	color:#E0001B;
+	font-weight: bold;
 }
